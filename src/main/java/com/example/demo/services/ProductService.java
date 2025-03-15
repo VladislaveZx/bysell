@@ -32,6 +32,6 @@ public class ProductService {
     }
 
     public Product getProductById(Long id) {
-        return products.stream().filter(p -> p.getId().equals(id) ).findFirst().orElse(null);
+        return new Product();
     }
 }
